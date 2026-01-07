@@ -38,7 +38,6 @@ class MyApp extends StatelessWidget {
             data: data.copyWith(textScaler: TextScaler.linear(1)),
             child: MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'First Method',
           theme: ThemeData(
             textTheme: GoogleFonts.poppinsTextTheme().copyWith(
               bodyMedium: GoogleFonts.poppins(
